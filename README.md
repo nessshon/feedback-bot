@@ -89,5 +89,5 @@ nano .env
 | Variable        | Description                                             |
 |-----------------|---------------------------------------------------------|
 | BOT_TOKEN       | Token, get it from [@BotFather](https://t.me/BotFather) |
-| GROUP_CHAT_ID   | ID the groups where messages from users will be sent.   |
+| GROUP_CHAT_ID   | ID groups where messages from users will be sent.       |
 | CUSTOM_EMOJI_ID | Emoji custom ID, recommended 5417915203100613993        |
