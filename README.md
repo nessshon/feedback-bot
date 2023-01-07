@@ -83,7 +83,7 @@ nano .env
 
 6. Copy telegram-bot.service to /lib/systemd/system/
    ```bash
-   sudo cp telegram-bot.service /lib/systemd/system/feedback-bot
+   sudo cp telegram-bot.service /lib/systemd/system/feedback-bot.service
    ```
 7. Enable autostart on boot
    ```bash
