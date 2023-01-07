@@ -4,6 +4,16 @@
 
 Bot example: [@NessFeedbackBot](https://NessFeedbackBot.t.me)
 
+## Features
+
+* Separate topics in the group for each user.
+* Lock user on topic close and unlock on resume.
+* Localization in two languages (russian and english)
+
+## Known Bugs
+
+* When closing and after deleting a topic, user messages are not sent to the feedback chat.
+
 ## Requirements
 
 * Python 3.10 and above.
@@ -86,8 +96,8 @@ nano .env
 
 ### Environment variables reference
 
-| Variable        | Description                                             |
-|-----------------|---------------------------------------------------------|
-| BOT_TOKEN       | Token, get it from [@BotFather](https://t.me/BotFather) |
-| GROUP_CHAT_ID   | ID groups where messages from users will be sent.       |
-| CUSTOM_EMOJI_ID | Emoji custom ID, recommended 5417915203100613993        |
+| Variable        | Description                                                                                                                  |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------|
+| BOT_TOKEN       | Token, get it from [@BotFather](https://t.me/BotFather)                                                                      |
+| GROUP_CHAT_ID   | Group ID where messages from users will be sent. Don't forget to enable themes in the group and add admin rights to the bot. |
+| CUSTOM_EMOJI_ID | Emoji custom ID, recommended 5417915203100613993                                                                             |
